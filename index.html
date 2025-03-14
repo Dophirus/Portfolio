@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <title>Mon Portfolio</title>
 </head>
 <body>
@@ -20,14 +21,56 @@
             </ul>
         </nav>
     </header>
-    <main>
-        <section>
-            <h2>À propos de moi</h2>
-            <p>Je suis un développeur passionné par la technologie et le design.</p>
+    <main class="home-container">
+        <section class="section-cards">
+            <div class="section-card presentation">
+                <i class="fas fa-user-circle"></i>
+                <h2>Présentation</h2>
+                <p>Découvrez qui je suis, mes qualités et mes centres d'intérêts. Un développeur passionné spécialisé dans le développement iOS, actuellement en alternance chez SFR.</p>
+                <a href="presentation.html" class="section-button">
+                    En savoir plus <i class="fas fa-arrow-right"></i>
+                </a>
+            </div>
+
+            <div class="section-card competences">
+                <i class="fas fa-code"></i>
+                <h2>Compétences</h2>
+                <p>Explorez mes compétences techniques et humaines. De la programmation iOS aux soft skills, découvrez mon expertise professionnelle.</p>
+                <a href="competences.html" class="section-button">
+                    Voir mes compétences <i class="fas fa-arrow-right"></i>
+                </a>
+            </div>
+
+            <div class="section-card realisations">
+                <i class="fas fa-laptop-code"></i>
+                <h2>Réalisations</h2>
+                <p>Consultez mes projets et réalisations. Un aperçu concret de mon travail et de mes contributions dans le développement d'applications.</p>
+                <a href="realisations.html" class="section-button">
+                    Voir mes projets <i class="fas fa-arrow-right"></i>
+                </a>
+            </div>
+
+            <div class="section-card parcours">
+                <i class="fas fa-graduation-cap"></i>
+                <h2>Parcours</h2>
+                <p>Suivez mon parcours académique et professionnel. Une timeline détaillée de mes expériences et formations.</p>
+                <a href="parcours.html" class="section-button">
+                    Voir mon parcours <i class="fas fa-arrow-right"></i>
+                </a>
+            </div>
+
+            <div class="section-card contact">
+                <i class="fas fa-envelope"></i>
+                <h2>Contact</h2>
+                <p>Intéressé par mon profil ? N'hésitez pas à me contacter pour discuter de vos projets ou opportunités.</p>
+                <a href="contact.html" class="section-button">
+                    Me contacter <i class="fas fa-arrow-right"></i>
+                </a>
+            </div>
         </section>
     </main>
     <footer>
-        <p>&copy; 2023 Mon Portfolio</p>
+        <p>&copy; 2025 Tom COLLET-YAKOUBI</p>
     </footer>
     <script src="script.js"></script>
 </body>

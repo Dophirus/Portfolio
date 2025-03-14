@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <title>Réalisations</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <title>Réalisations - Tom COLLET-YAKOUBI</title>
 </head>
 <body>
     <header>
@@ -20,18 +21,68 @@
             </ul>
         </nav>
     </header>
-    <main>
-        <section>
-            <h2>Projets</h2>
-            <p>Voici quelques projets sur lesquels j'ai travaillé :</p>
-            <ul>
-                <li>Projet 1: Description du projet.</li>
-                <li>Projet 2: Description du projet.</li>
-            </ul>
-        </section>
+    <main class="realisations-container">
+        <div class="projects-grid">
+            <article class="project-card">
+                <div class="project-image">
+                    <img src="images/sfr-mail.jpg" alt="Application SFR Mail">
+                </div>
+                <div class="project-content">
+                    <h3>Application SFR Mail iOS</h3>
+                    <p>Développement et maintenance de l'application mail de SFR sur iOS. Implémentation de nouvelles fonctionnalités et amélioration de l'expérience utilisateur.</p>
+                    <div class="project-tags">
+                        <span>Swift</span>
+                        <span>iOS</span>
+                        <span>SwiftUI</span>
+                    </div>
+                    <a href="projets/sfr-mail.html" class="project-button">
+                        Voir les détails
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </article>
+
+            <article class="project-card">
+                <div class="project-image">
+                    <img src="images/teads-dashboard.jpg" alt="Dashboard Teads">
+                </div>
+                <div class="project-content">
+                    <h3>Dashboard Analytics Teads</h3>
+                    <p>Création d'un tableau de bord analytique pour la visualisation des données publicitaires en temps réel. Interface moderne et responsive.</p>
+                    <div class="project-tags">
+                        <span>React</span>
+                        <span>TypeScript</span>
+                        <span>D3.js</span>
+                    </div>
+                    <a href="projets/teads-dashboard.html" class="project-button">
+                        Voir les détails
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </article>
+
+            <article class="project-card">
+                <div class="project-image">
+                    <img src="images/portfolio.jpg" alt="Portfolio Personnel">
+                </div>
+                <div class="project-content">
+                    <h3>Portfolio Personnel</h3>
+                    <p>Conception et développement de mon portfolio personnel avec une approche moderne et responsive. Focus sur l'expérience utilisateur et les animations fluides.</p>
+                    <div class="project-tags">
+                        <span>HTML5</span>
+                        <span>CSS3</span>
+                        <span>JavaScript</span>
+                    </div>
+                    <a href="projets/portfolio.html" class="project-button">
+                        Voir les détails
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </article>
+        </div>
     </main>
     <footer>
-        <p>&copy; 2023 Mon Portfolio</p>
+        <p>&copy; 2025 Tom COLLET-YAKOUBI</p>
     </footer>
     <script src="script.js"></script>
 </body>
