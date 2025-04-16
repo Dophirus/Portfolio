@@ -1954,3 +1954,199 @@ footer {
         padding: 1.2rem;
     }
 }
+
+/* Styles pour la section Missions et Technologies */
+.skill-missions {
+    background: var(--white);
+    padding: 2.5rem;
+    border-radius: 15px;
+    box-shadow: var(--shadow);
+    margin-bottom: 2rem;
+}
+
+.skill-missions h3 {
+    color: var(--primary-color);
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+    padding-bottom: 1rem;
+    border-bottom: 3px solid var(--secondary-color);
+}
+
+.mission-card {
+    background: var(--light-bg);
+    border-radius: 12px;
+    padding: 2rem;
+    margin-bottom: 1.5rem;
+    transition: var(--transition);
+}
+
+.mission-card:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--shadow);
+}
+
+.mission-header {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.mission-header i {
+    font-size: 2rem;
+    color: var(--secondary-color);
+    background: var(--white);
+    padding: 1rem;
+    border-radius: 12px;
+}
+
+.mission-header h4 {
+    color: var(--primary-color);
+    font-size: 1.4rem;
+    margin: 0;
+}
+
+.mission-details h5 {
+    color: var(--secondary-color);
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.mission-details p {
+    color: var(--text-color);
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+}
+
+.technologies-used h6 {
+    color: var(--primary-color);
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+}
+
+.technologies-used ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.technologies-used li {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    background: var(--white);
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    font-size: 0.95rem;
+    color: var(--text-color);
+}
+
+.technologies-used li i {
+    color: var(--secondary-color);
+}
+
+@media (max-width: 768px) {
+    .skill-missions {
+        padding: 1.5rem;
+    }
+
+    .mission-card {
+        padding: 1.5rem;
+    }
+
+    .mission-header i {
+        font-size: 1.5rem;
+        padding: 0.8rem;
+    }
+
+    .mission-header h4 {
+        font-size: 1.2rem;
+    }
+
+    .technologies-used ul {
+        gap: 0.8rem;
+    }
+
+    .technologies-used li {
+        padding: 0.4rem 0.8rem;
+        font-size: 0.9rem;
+    }
+}
+
+/* Styles pour la section Missions et Technologies dans la timeline */
+.mission-details {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    margin-top: 1rem;
+}
+
+.technologies-used, .agile-methods {
+    background: var(--light-bg);
+    padding: 1.5rem;
+    border-radius: 12px;
+    box-shadow: var(--shadow);
+}
+
+.technologies-used h5, .agile-methods h5 {
+    color: var(--primary-color);
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid var(--secondary-color);
+}
+
+.technologies-used ul, .agile-methods ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.technologies-used li, .agile-methods li {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    background: var(--white);
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    font-size: 0.95rem;
+    color: var(--text-color);
+    transition: var(--transition);
+}
+
+.technologies-used li:hover, .agile-methods li:hover {
+    transform: translateY(-3px);
+    box-shadow: var(--shadow);
+}
+
+.technologies-used li i, .agile-methods li i {
+    color: var(--secondary-color);
+}
+
+@media (max-width: 768px) {
+    .mission-details {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+
+    .technologies-used, .agile-methods {
+        padding: 1.2rem;
+    }
+
+    .technologies-used h5, .agile-methods h5 {
+        font-size: 1.1rem;
+    }
+
+    .technologies-used ul, .agile-methods ul {
+        gap: 0.8rem;
+    }
+
+    .technologies-used li, .agile-methods li {
+        padding: 0.4rem 0.8rem;
+        font-size: 0.9rem;
+    }
+}
