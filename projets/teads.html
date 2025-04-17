@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <title>Projet Teads - Tom COLLET-YAKOUBI</title>
+</head>
+<body>
+    <header>
+        <h1>Projet Teads</h1>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Accueil</a></li>
+                <li><a href="../presentation.html">Présentation</a></li>
+                <li><a href="../competences.html">Compétences</a></li>
+                <li><a href="../realisations.html">Réalisations</a></li>
+                <li><a href="../parcours.html">Parcours</a></li>
+                <li><a href="../contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="project-details-container">
+        <section class="project-hero">
+            <div class="project-header">
+                <h2>Teads - Publicité Vidéo et Digitale</h2>
+                <div class="project-meta">
+                    <span class="project-date">2023</span>
+                    <span class="project-type">Stage Professionnel</span>
+                </div>
+            </div>
+        </section>
+
+        <section class="project-content">
+            <h2>1 – INTRODUCTION</h2>
+            <p>Teads est une entreprise spécialisée dans la publicité vidéo et digitale. Fondée en France en 2011, Teads s'est rapidement développé à l'international. En effet, elle est présente dans plus de 30 pays et fait des collaborations avec de nombreuses marques comme Apple ou Coka. Ces partenariats sont sous forme d'exclusivité ou Teads se voit responsable de la distribution de la publicité du partenaire dans le monde entier. Durant mon stage de 6 mois chez eux, j'ai pu rejoindre l'équipe Operations. Cette équipe travaille sur plusieurs applications de l'entreprise, notamment Console-campaign, TAM (Teads Ads Manager) et TDS (Teads Design System). Ces applications m'ont permis d'améliorer ma compréhension de l'architecture qu'utilise l'entreprise ainsi que des langages utilisés (Angular, React). Ce stage était ma première immersion dans le monde professionnel et à donc été très formateur pour moi.</p>
+
+            <h2>2 – OBJECTIFS</h2>
+            <p>L'objectif principal de mon stage était de contribuer activement au développement et à la maintenance des applications utilisées par Teads, en me concentrant sur l'amélioration de leurs fonctionnalités et leur adaptation aux besoins des utilisateurs et des autres équipes de Teads (comme les commerciaux). Mes missions consistaient à implémenter de nouvelles fonctionnalités et de corriger des bugs. Un objectif également important était également de respecter les normes de l'entreprise et de collaborer avec les différentes équipes impliquées dans les applications. Par exemple, il m'est arrivé de devoir échanger avec l'équipe UI/UX par rapport au design de ce que je devais implémenter, pour être sur que cela convienne à la charte de l'entreprise et aux nombreuses normes mises en place.</p>
+
+            <h2>3 – CONTEXTE TECHNIQUE</h2>
+            <p>Au cours de mon stage, j'ai principalement travaillé avec ces technologies/outils :</p>
+            <ul>
+                <li>React et Angular : Ces frameworks étaient activement utilisés dans le développement de toutes les applications. Une application en particulier, TAM, utilisait une ancienne version d'Angular en plus de la surcouche React. Il était compliqué de faire interagir les éléments entre eux, d'autant plus qu'une transition pour passer pleinement sur React était en cours.</li>
+                <li>Storybook : Cet outil m'a permis de documenter et de tester les composants visuels pour les applications. Malheureusement, personne n'était réellement formé sur cet outil et j'ai dû apprendre son fonctionnement de mon coté pour que je puisse faire des composants qui soient utiles à tout le monde.</li>
+                <li>Jest : J'ai utilisé ce framework de test pour vérifier le code en mettant en place des tests unitaires sur les fonctionnalités que je mettais en place, comme par exemple l'ajout de fuseaux horaires, pour m'assurer que la date soit au bon format.</li>
+                <li>Jira : J'ai utilisé cet outil de gestion de projet en accord avec mon tuteur pour sélectionner des tâches à faire.</li>
+                <li>Slack : Cette application permet de communiquer facilement et de manière moins formelle que Teams. J'avais accès a différents canaux pour les différentes équipes, et il était également possible d'y mettre en place des réunions si besoin.</li>
+                <li>Docker : J'ai pu utiliser Docker pour tester des versions isolées de mon implémentation. Étant donné que les applications sur lesquelles je travaillais étaient grosses, il était nécessaire d'avoir un container de plus petite taille pour par exemple compiler plus rapidement l'application.</li>
+                <li>Figma : J'ai pu visualiser les maquettes de l'équipe UI/UX via cet outil. Il m'a permis de facilement voir les normes et de pouvoir faire des retours en direct via l'application à l'équipe UI/UX.</li>
+            </ul>
+
+            <h2>4 – ENJEUX ET RISQUES</h2>
+            <p>Étant donné que ce stage était ma première expérience dans le monde professionnel, mes enjeux étaient liés à la capacité de mon adaptation au sein de cet environnement. J'ai également été confronté à des défis techniques (avec la cohabitation d'Angular et React dans la même application, ou bien dans ma formation sur Storybook). C'était également la première fois que j'intégrais une équipe professionnelle, il me fallait donc être rigoureux, communicatif et professionnel pour que je puisse montrer une bonne image de moi-même. Quant au développement, j'ai eu la chance d'avoir un tuteur compréhensif qui ne m'a pas donné de délais et qui a su m'accompagner dans mon apprentissage de l'entreprise et des langages. Tout ce que j'écrivais était relu par lui, ce qui évitait de laisser du code inutilisés ou des erreurs d'apprentissage du langage.</p>
+
+            <h2>5 – ÉTAPES DE DÉPLOIEMENT</h2>
+            <p>Le déploiement des fonctionnalités que j'ai faites se déroulait comme ceci :</p>
+            <ul>
+                <li>Faire des tests : On faisait des tests unitaires ainsi que des tests d'intégration pour chacune de nos fonctionnalités. On utilisait également des sandboxes, qui sont des environnements isolés avec Docker.</li>
+                <li>Revue de code : Mon code était forcément relu par mon tuteur, et même par certains membres de l'équipe, ce qui m'a permis d'avoir des retours différents pour améliorer ma qualité d'écriture ainsi que ma pensée.</li>
+                <li>Intégration continue : Ma pull request passait ensuite par la CI, permettant de voir s'il y a des problèmes de compilation et de préparer le code pour une potentielle mise en production.</li>
+                <li>Mise en production : Une fois validé, le code était directement déployé pour qu'il soit utilisable pour tout le monde. Cependant, pour certaines fonctionnalités, il était possible de les bloquer avec un "feature flag", permettant à activer cette fonctionnalité pour seulement une poignée d'utilisateurs.</li>
+            </ul>
+
+            <h2>6 – FIN DU PROJET ET PERSPECTIVES D'AVENIR</h2>
+            <p>À la fin de mon stage, les fonctionnalités sur lesquelles j'avais travaillé étaient soit en cours de déploiement soit déployées, ce qui a surement permis d'améliorer les applications de l'entreprise. Bien que je n'étais soumis à aucune contrainte de temps, je m'efforçais de répondre aux attentes de mon tuteur en me fixant moi-même des objectifs à atteindre. Ma montée en compétence sur l'outil Storybook en fait partie, même si j'ai dû demander de l'aide à certains membres du groupe. J'ai pu monter en compétence sur l'utilisation de React et d'Angular, ce qui me donne une bonne base pour une application web sur ces frameworks. Si dans l'avenir je suis amené à travailler sur des applications utilisants ces frameworks, je n'aurais plus un aussi grand temps d'adaptation et je saurais ce que je peux utiliser.</p>
+
+            <h2>7 – CE QUE JE RETIENS</h2>
+            <p>Ce stage chez Teads a été une expérience très enrichissante, autant sur le plan professionnel que personnel. J'ai donc pu améliorer mes compétences techniques en découvrant de nouvelles technologies. Et j'ai également pu découvrir le travail dans une équipe professionnelle, ce qui m'a permis de mettre en application ce que j'ai appris en termes de communication. Au delà de ces compétences, j'ai également pu travailler mon autonomie et donc ma gestion du temps, qui sont deux compétences cruciales dans le monde professionnel. Au final, cette expérience m'a renforcé dans mon idée de vouloir faire du développement web ou mobile en me permettant d'y faire mes premiers essais sans pression et avec un bon accompagnement.</p>
+        </section>
+
+        <section class="project-technologies">
+            <h3>Technologies Utilisées</h3>
+            <div class="tech-grid">
+                <div class="tech-card">
+                    <i class="fab fa-react"></i>
+                    <h4>React & Angular</h4>
+                    <p>Frameworks principaux pour le développement des applications</p>
+                </div>
+                <div class="tech-card">
+                    <i class="fas fa-tools"></i>
+                    <h4>Storybook & Jest</h4>
+                    <p>Outils pour la documentation et les tests des composants</p>
+                </div>
+            </div>
+        </section>
+
+        <a href="../realisations.html" class="back-button">
+            <i class="fas fa-arrow-left"></i>
+            Retour aux réalisations
+        </a>
+    </main>
+    <footer>
+        <p>&copy; 2025 Tom COLLET-YAKOUBI</p>
+    </footer>
+    <script src="../script.js"></script>
+</body>
+</html>

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <title>Projet SFR - Tom COLLET-YAKOUBI</title>
+</head>
+<body>
+    <header>
+        <h1>Projet SFR</h1>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Accueil</a></li>
+                <li><a href="../presentation.html">Présentation</a></li>
+                <li><a href="../competences.html">Compétences</a></li>
+                <li><a href="../realisations.html">Réalisations</a></li>
+                <li><a href="../parcours.html">Parcours</a></li>
+                <li><a href="../contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="project-details-container">
+        <section class="project-hero">
+            <div class="project-header">
+                <h2>SFR Mail iOS - Application de gestion de mails</h2>
+                <div class="project-meta">
+                    <span class="project-date">2023</span>
+                    <span class="project-type">Application Mobile</span>
+                </div>
+            </div>
+        </section>
+
+        <section class="project-content">
+            <h2>1 – INTRODUCTION</h2>
+            <p>Mon alternance au sein de SFR m'a permis de m'intégrer à l'équipe en charge du développement et de la maintenance de l'application SFR Mail iOS. Lancée initialement sur l'App Store (Apple), SFR Mail iOS est une application permettant de recevoir, écrire et gérer des mails, uniquement pour les abonnés à SFR. Au fil du temps, l'application a connu plusieurs évolutions et mises à jour visant à améliorer l'expérience utilisateur, la sécurité et l'ajout de nouvelles fonctionnalités. Je peux citer par exemple le changement de fonctionnement du filtre spam pour qu'il soit moins agressif, une modification de l'application pour la prise en charge de Spotlight, ou bien des changements d'affichages visant à lutter contre le phishing et donc le vol de compte. Actuellement, SFR Mail iOS à une note de 4.4 sur 5 sur l'App Store, ce qui montre que l'application est appréciée de ses consommateurs. Mon travail sur cette application consiste surtout à continuer d'y apporter des modifications pour continuer d'améliorer l'application.</p>
+
+            <h2>2 – OBJECTIFS</h2>
+            <p>Durant mon alternance, j'ai eu plusieurs missions, comme notamment :</p>
+            <ul>
+                <li>Pouvoir gérer ses propres règles de transfert depuis l'application iOS (création, édition, suppression)</li>
+                <li>Ajouter la notion d'adresses " Reply-To " qui sont des adresses saisies automatiquement lorsque l'on choisit de répondre à un mail.</li>
+                <li>Permettre la lecture de fichiers EML directement via l'application</li>
+            </ul>
+            <p>Ces objectifs ont pour but d'améliorer l'expérience d'un utilisateur et donc de permettre d'utiliser plus souvent l'application plutôt que de passer par la version web.</p>
+
+            <h2>3 – CONTEXTE TECHNIQUE</h2>
+            <p>Dans mon travail sur SFR Mail, j'utilise les langages de programmation et les outils de développement propres à l'écosystème Apple tel que Swift ou bien UIKit. Même pour programmer, j'utilise Xcode. En m'intégrant dans une équipe existante, j'ai dû prendre du temps pour comprendre l'architecture de l'application et également pour m'adapter aux normes de codage de la boite. Cette étape me prend toujours du temps aujourd'hui, mais je suis confiant quant au fait de ma progression actuelle. Je suis dans une équipe de 5 personnes, dont 2 qui travaillent activement sur l'application Mail. Le reste de l'équipe s'occupe des applications SFR & Moi, RED & Moi. Même si ce ne sont pas les mêmes applications, il arrive régulièrement que nous discutions entre nous par rapport à de possibles implémentations ou améliorations, comme par exemple avec l'implémentation de SwiftUI dans nos applications. Aussi, nous utilisons les mêmes librairies internes.</p>
+
+            <h2>4 – ENJEUX ET RISQUES</h2>
+            <p>Étant donné le grand nombre d'utilisateurs utilisant l'application, chaque mise à jour comporte sa part de risques et d'enjeux. Chaque nouvelle fonctionnalité peut apporter une régression ou un bug qui n'a pas été vu lors des phases de test. Notre but est de limiter ces risques. Chaque bug ou régression laissé fera office d'une mauvaise note ou d'un mauvais commentaire pour l'application. En plus de cette note négative, nous devrons prendre du temps pour trouver le problème et le corriger, alors qu'il serait plus productif d'avoir fait ça en amont pour se focaliser sur le reste des fonctionnalités à implémenter. Donc pour minimiser ces risques, chaque code que j'écris est lu par mon tuteur qui s'assure que j'ai bien testé en amont et donc que je n'effectue pas de régression dans l'application. Une fois que ceci est validé, mon code peut partir et sera mis en production à la prochaine mise à jour prévue.</p>
+
+            <h2>5 – ÉTAPES DE DEPLOIMENT</h2>
+            <p>N'ayant pas eu d'application ou de projet à part entière, je vais ici montrer comment s'est passé le développement de mon travail sur les règles de transfert. Pour définir une règle de transfert, c'est une instruction que peut donner un utilisateur pour dire par exemple que, chaque mail venant de l'adresse " toto@gmail.com " iront directement dans le dossier " Perso " J'ai dû travailler sur cette fonctionnalité pour garantir la sécurité de l'application. En effet, quand des comptes se font voler par des hackers, certains en profitent pour mettre des règles de transfert pour par exemple rendre le phishing plus accessible ou bien alors pour rediriger des mails importants directement dans leur propre boite mail.</p>
+            <ul>
+                <li>Planification du travail : Nous n'avions pas encore mis en place la méthodologie Agile pour cette fonctionnalité, donc j'ai dû m'organiser personnellement pour pouvoir développer la fonctionnalité dans des délais raisonnables.</li>
+                <li>Développement : Durant cette phase, j'implémente la fonctionnalité demandée, ici la gestion des règles de transfert, qui se caractérise par 1 écran supplémentaire permettant d'ajouter, éditer et supprimer ces règles de transfert. Je me coordonne aussi avec mon tuteur pour qu'il puisse vérifier l'avancée et la qualité de mon travail.</li>
+                <li>Tests : Une fois la majorité de ce que je veux implémenter fait, je teste mon code pour m'assurer qu'il n'y ait pas de régressions avec ce que j'ai fait et également que ça n'apporte pas d'autres bugs.</li>
+                <li>Revue de code : Après les tests effectués, je crée une merge request sur Gitlab, que mon tuteur relira pour s'assurer que je respecte bien les conventions de l'entreprise et que je n'ai pas fait d'erreurs dans mon raisonnement.</li>
+                <li>Déploiement : Une fois mon travail validé, il est mergé dans une branche qui contiendra les nouvelles fonctionnalités pour la prochaine mise à jour.</li>
+            </ul>
+
+            <h2>6 – FIN DU PROJET ET PERSPECTIVES D'AVENIR</h2>
+            <p>Dans un point de vue plus global, je finirais mon alternance à la fin de mon contrat, donc il n'est pas réellement possible de finir cette application. Néanmoins, j'aurais fini toutes les fonctionnalités qui m'ont été assignées. Aujourd'hui, je suis fier de ce que j'ai accompli et de l'expérience que j'ai pu gagner pendant mon parcours qui aura duré deux ans chez SFR. Dans l'avenir, j'aimerais utiliser les compétences que j'ai mis à profit et continuer de travailler dans le développement mobile en gardant l'utilisation de la méthodologie Agile.</p>
+
+            <h2>7 – CE QUE JE RETIENS</h2>
+            <p>Mon travail sur SFR Mail iOS a été une expérience vraiment formatrice. Avec l'inclusion de la méthodologie Agile vers la moitié de mon expérience et avec tout ce que j'ai pu apprendre, que ce soit techniquement, professionnellement ou humainement, mes deux années d'alternances m'ont permis d'ouvrir pleinement les yeux sur les attendus professionnels de l'industrie et j'ai également pu aiguiser mes compétences et mon savoir faire avec l'aide de l'équipe dans laquelle je suis et aussi de mon tuteur.</p>
+        </section>
+
+        <section class="project-technologies">
+            <h3>Technologies Utilisées</h3>
+            <div class="tech-grid">
+                <div class="tech-card">
+                    <i class="fab fa-apple"></i>
+                    <h4>Swift & UIKit</h4>
+                    <p>Langages et frameworks principaux pour le développement de l'application</p>
+                </div>
+                <div class="tech-card">
+                    <i class="fas fa-code"></i>
+                    <h4>Xcode</h4>
+                    <p>Environnement de développement intégré pour les applications iOS</p>
+                </div>
+            </div>
+        </section>
+
+        <a href="../realisations.html" class="back-button">
+            <i class="fas fa-arrow-left"></i>
+            Retour aux réalisations
+        </a>
+    </main>
+    <footer>
+        <p>&copy; 2025 Tom COLLET-YAKOUBI</p>
+    </footer>
+    <script src="../script.js"></script>
+</body>
+</html>
