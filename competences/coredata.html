@@ -37,66 +37,29 @@
             <article class="skill-description">
                 <h3>Vue d'ensemble</h3>
                 <div class="description-content">
-                    <p>Core Data est un framework fourni par Apple qui permet de gérer les données persistantes dans les applications iOS, macOS, watchOS et tvOS. Il offre une solution pour enregistrer, récupérer, modifier et supprimer des données, tout en fournissant des fonctionnalités telles que la gestion du cycle de vie des objets, la gestion de la mémoire et le suivi des modifications. Core Data n'est pas une base de données à part entière, mais plutôt une couche d'abstraction au-dessus d'un magasin de données (qui peut être SQLite).</p>
+                    <p>Core Data est un framework robuste et flexible fourni par Apple, conçu spécifiquement pour la gestion des données persistantes au sein des applications développées pour les plateformes iOS, macOS, watchOS et tvOS. Il offre une solution complète pour l'enregistrement, la récupération, la modification et la suppression de données structurées, tout en intégrant des fonctionnalités avancées telles que la gestion du cycle de vie des objets, l'optimisation de la mémoire et le suivi précis des modifications apportées aux données. Il est important de noter que Core Data n'est pas une base de données relationnelle autonome, mais plutôt une couche d'abstraction puissante qui interagit avec un magasin de données sous-jacent, lequel peut fréquemment être SQLite, mais peut également prendre d'autres formes.</p>
 
                     <h4>Développement personnel</h4>
-                    <p>J'ai développé mes compétences en Core Data en l'intégrant dans des projets où la gestion efficace des données persistantes était cruciale. J'ai appris à :
-                    <ul>
-                        <li>Définir le modèle de données : créer des entités, des attributs et des relations pour représenter les données de l'application.</li>
-                        <li>Interagir avec le contexte : utiliser le NSManagedObjectContext pour effectuer des opérations sur les données.</li>
-                        <li>Effectuer des requêtes : récupérer des données en utilisant des NSFetchRequest.</li>
-                        <li>Gérer les relations : définir et utiliser les relations entre les entités.</li>
-                        <li>Assurer la performance : optimiser les opérations Core Data pour garantir une application réactive.</li>
-                    </ul>
-                    </p>
+                    <p>Mon développement de compétences en Core Data s'est réalisé concrètement à travers son intégration dans divers projets où la gestion efficace et pérenne des données était un impératif. J'ai acquis une compréhension approfondie des mécanismes fondamentaux de Core Data, notamment la capacité à définir le modèle de données en créant des entités, en spécifiant leurs attributs et en établissant les relations complexes qui peuvent exister entre elles pour représenter fidèlement les informations manipulées par l'application.</p>
+                    <p>J'ai également appris à interagir de manière experte avec le NSManagedObjectContext, l'objet central de Core Data qui permet d'effectuer toutes les opérations de manipulation des données, de la création à la suppression. La formulation de requêtes efficaces pour récupérer des données spécifiques en utilisant NSFetchRequest est une autre compétence que j'ai développée, me permettant d'extraire précisément les informations nécessaires. La gestion des relations entre les entités, en définissant et en utilisant les différents types de relations (un-à-un, un-à-plusieurs, plusieurs-à-plusieurs), est également un aspect que je maîtrise. Enfin, et de manière cruciale, j'ai appris à optimiser les opérations Core Data pour garantir que l'application reste réactive et performante, même lorsqu'elle traite de grandes quantités de données.</p>
 
                     <h4>Application de la compétence</h4>
-                    <p>J'ai appliqué mes compétences en Core Data dans les contextes suivants :
-                    <ul>
-                        <li>Stockage local des données : persistance des données utilisateur, des préférences ou des données de l'application pour une utilisation hors ligne ou entre les sessions.</li>
-                        <li>Gestion des relations complexes : modélisation et gestion des relations entre différentes entités de données dans l'application.</li>
-                        <li>Optimisation des performances : mise en place de stratégies pour récupérer et manipuler efficacement de grands ensembles de données.</li>
-                        <li>Migration de données : gestion des changements du modèle de données entre les différentes versions de l'application.</li>
-                    </ul>
-                    </p>
+                    <p>Mes compétences en Core Data ont trouvé une application pratique dans plusieurs contextes de développement iOS. J'ai utilisé Core Data pour la mise en place du stockage local des données, permettant la persistance des informations utilisateur, des préférences de l'application ou des données essentielles pour une utilisation hors ligne ou pour conserver l'état de l'application entre les sessions. J'ai également géré des relations complexes entre différentes entités de données au sein de l'application, assurant l'intégrité et la cohérence des informations.</p>
+                    <p>L'optimisation des performances a été une considération constante, et j'ai mis en œuvre des stratégies pour récupérer et manipuler efficacement de grands ensembles de données sans impacter négativement la réactivité de l'interface utilisateur. Enfin, j'ai abordé la migration de données, un processus essentiel pour gérer les évolutions du modèle de données entre les différentes versions d'une application, en assurant une transition en douceur pour les utilisateurs existants.</p>
 
                     <h4>Exemples concrets</h4>
-                    <p>SFR Mail iOS :
-                    <ul>
-                        <li>J'ai utilisé Core Data pour stocker localement les préférences de l'utilisateur, comme les comptes de messagerie configurés, les paramètres d'affichage et les drapeaux de messages.</li>
-                        <li>Core Data a permis de maintenir une expérience utilisateur personnalisée et de réduire les besoins de rechargement des données depuis le serveur.</li>
-                        <li>J'ai veillé à optimiser les performances de Core Data pour assurer une navigation fluide dans l'application, même avec un grand nombre de courriels.</li>
-                    </ul>
-                    </p>
-                    <p>VGMDB Mobile (application de recréation du site VGMDB) :
-                    <ul>
-                        <li>J'ai utilisé Core Data pour mettre en cache les informations sur les albums, les artistes et les jeux vidéo, afin de réduire les appels réseau et d'améliorer la réactivité de l'application.</li>
-                        <li>J'ai défini des relations entre les entités (par exemple, entre les albums et les artistes) pour faciliter la navigation et l'affichage des informations connexes.</li>
-                        <li>J'ai implémenté des stratégies de migration de données pour gérer les mises à jour du modèle de données, par exemple, lors de l'ajout de nouvelles fonctionnalités ou de la modification de la structure des données.</li>
-                    </ul>
-                    </p>
+                    <p>Dans le cadre de mon travail sur l'application SFR Mail iOS, j'ai utilisé Core Data pour assurer le stockage local des préférences de l'utilisateur. Cela comprenait la sauvegarde des informations relatives aux comptes de messagerie configurés dans l'application, les différents paramètres d'affichage choisis par l'utilisateur, ainsi que l'état des drapeaux associés aux messages. L'utilisation de Core Data a permis de maintenir une expérience utilisateur personnalisée et cohérente, en évitant la nécessité de recharger constamment ces données depuis le serveur à chaque ouverture de l'application. J'ai également accordé une attention particulière à l'optimisation des performances de Core Data au sein de l'application SFR Mail iOS, afin de garantir une navigation fluide et rapide, même lorsque l'utilisateur interagit avec un grand nombre de courriels et de dossiers.</p>
+                    <p>Dans le cadre de mon projet personnel VGMDB Mobile, j'ai tiré parti de Core Data pour mettre en cache les informations détaillées concernant les albums de musique de jeux vidéo, les artistes et les jeux vidéo eux-mêmes. Cette stratégie de mise en cache locale a permis de réduire significativement le nombre d'appels réseau nécessaires pour afficher ces informations, améliorant ainsi considérablement la réactivité et la rapidité de l'application, même en l'absence de connexion internet stable. J'ai également défini des relations claires et efficaces entre les différentes entités de données stockées dans Core Data (par exemple, la relation entre un album et son artiste, ou entre un jeu vidéo et sa bande originale), ce qui a facilité la navigation et l'affichage des informations connexes au sein de l'application. Enfin, j'ai implémenté des stratégies de migration de données pour gérer les éventuelles mises à jour du modèle de données de l'application au fil du temps, par exemple lors de l'ajout de nouvelles fonctionnalités nécessitant des modifications de la structure des données mises en cache.</p>
 
                     <h4>Applications pratiques</h4>
-                    <p>La maîtrise de Core Data est applicable dans de nombreux types d'applications iOS :
-                    <ul>
-                        <li>Applications de productivité qui nécessitent une gestion complexe des données.</li>
-                        <li>Applications de médias qui mettent en cache du contenu pour une consultation hors ligne.</li>
-                        <li>Applications de commerce électronique qui stockent les informations sur les produits et les paniers.</li>
-                        <li>Applications de jeux qui sauvegardent la progression du joueur et les paramètres de jeu.</li>
-                    </ul>
-                    </p>
+                    <p>La maîtrise de Core Data est une compétence précieuse et applicable dans de nombreux types d'applications développées pour l'écosystème Apple. Cela inclut les applications de productivité qui nécessitent une gestion complexe de données structurées, les applications de médias qui mettent en cache du contenu volumineux pour permettre une consultation hors ligne, les applications de commerce électronique qui stockent les informations sur les produits, les paniers d'achat et les historiques de commandes, ainsi que les applications de jeux qui sauvegardent la progression des joueurs, les paramètres de jeu et les scores.</p>
 
                     <h4>Niveau actuel et axes d'amélioration</h4>
-                    <p>Je possède de bonnes compétences en Core Data et je suis capable de l'utiliser pour gérer efficacement les données persistantes dans les applications iOS. Cependant, je souhaite continuer à me perfectionner dans les domaines suivants :
-                    <ul>
-                        <li>Concurrence avec Core Data : gérer Core Data dans un environnement multithread pour améliorer les performances.</li>
-                        <li>Techniques d'optimisation avancées : explorer des stratégies d'optimisation plus poussées, comme le "fetching" par lots et la gestion fine de la mémoire.</li>
-                        <li>Intégration avec CloudKit : combiner Core Data avec CloudKit pour synchroniser les données entre les appareils de l'utilisateur.</li>
-                    </ul>
-                    </p>
+                    <p>Je possède de bonnes compétences en Core Data et suis capable de l'utiliser efficacement pour gérer les données persistantes dans les applications iOS, en mettant en place des modèles de données robustes et en effectuant les opérations de CRUD de manière performante. Cependant, je suis désireux de continuer à me perfectionner dans plusieurs domaines spécifiques.</p>
+                    <p>L'un de ces domaines est la gestion de la concurrence avec Core Data, en apprenant à manipuler le framework dans un environnement multithread pour améliorer la réactivité des applications qui effectuent des opérations de données en arrière-plan. Je souhaite également explorer des techniques d'optimisation avancées, telles que le "fetching" par lots pour récupérer de grandes quantités de données de manière plus efficace, et la gestion fine de la mémoire pour éviter les problèmes de performance liés à la manipulation d'objets Core Data. Enfin, je suis intéressé par l'intégration de Core Data avec CloudKit, le service de synchronisation de données d'Apple, afin de permettre la synchronisation transparente des données de l'application entre les différents appareils d'un même utilisateur.</p>
 
                     <h4>Impact personnel</h4>
-                    <p>L'utilisation de Core Data me permet de créer des applications plus robustes et plus performantes, offrant une meilleure expérience utilisateur. Cela me donne également un meilleur contrôle sur la gestion des données dans mes applications et me permet de développer des solutions plus complexes et plus riches en fonctionnalités.</p>
+                    <p>L'utilisation efficace de Core Data me permet de créer des applications iOS plus robustes, plus performantes et offrant une expérience utilisateur de meilleure qualité. Cela me donne également un contrôle accru sur la manière dont les données sont gérées au sein de mes applications, ouvrant la voie au développement de solutions plus complexes et riches en fonctionnalités, capables de répondre à des besoins utilisateurs variés et exigeants.</p>
                 </div>
             </article>
 
